@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>TRIGR — Nutrition</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+<script src="icons.js" defer></script>
+</head>
+<body>
+<div class="app">
+
+  <aside class="sidebar">
+    <div class="sb-brand">
+      <div class="sb-mark"><svg class="ic ic-22"><use href="#i-logo"/></svg></div>
+      <div><div class="sb-name">TRIGR</div><div class="sb-sub">Performance OS</div></div>
+    </div>
+    <div class="sb-section">Workspace</div>
+    <a href="index.html"     class="sb-link"><svg class="ic"><use href="#i-home"/></svg>Home</a>
+    <a href="workout.html"   class="sb-link"><svg class="ic"><use href="#i-dumbbell"/></svg>Workouts</a>
+    <a href="scan.html"      class="sb-link"><svg class="ic"><use href="#i-scan"/></svg>Face Scan</a>
+    <a href="maia.html"      class="sb-link"><svg class="ic"><use href="#i-brain"/></svg>MAIA</a>
+    <a href="coach.html"     class="sb-link"><svg class="ic"><use href="#i-mic"/></svg>Real Coach</a>
+    <div class="sb-section">Performance</div>
+    <a href="eplimo.html"    class="sb-link"><svg class="ic"><use href="#i-dna"/></svg>EPLIMO</a>
+    <a href="health.html"    class="sb-link"><svg class="ic"><use href="#i-pulse"/></svg>Health</a>
+    <a href="diet.html"      class="sb-link active"><svg class="ic"><use href="#i-leaf"/></svg>Nutrition</a>
+    <div class="sb-section">Community</div>
+    <a href="community.html" class="sb-link"><svg class="ic"><use href="#i-message"/></svg>Community</a>
+    <a href="store.html"     class="sb-link"><svg class="ic"><use href="#i-cart"/></svg>Store</a>
+    <a href="profile.html"   class="sb-link"><svg class="ic"><use href="#i-user"/></svg>Profile</a>
+    <div class="sb-plan">
+      <div class="sb-plan-row">
+        <div class="sb-plan-ic"><svg class="ic ic-18"><use href="#i-crown"/></svg></div>
+        <div><div class="sb-plan-name">PRO MEMBER</div><div class="sb-plan-meta">₹999 / mo</div></div>
+      </div>
+      <a href="upgrade.html" class="sb-plan-btn">Manage Plan</a>
+    </div>
+  </aside>
+
+  <main class="main"><div class="main-wrap">
+
+    <div class="page-header">
+      <a href="index.html" class="back-btn"><svg class="ic ic-18"><use href="#i-chevron-left"/></svg></a>
+      <div class="page-title"><div class="pt-eyebrow">DNA-Tuned by EPLIMO</div><h1>Nutrition</h1></div>
+      <button class="icon-btn"><svg class="ic ic-18"><use href="#i-search"/></svg></button>
+    </div>
+
+    <div class="stack">
+
+      <!-- Hero -->
+      <section class="hero">
+        <div class="hero-grid">
+          <div>
+            <div class="hero-eyebrow"><span class="dot"></span>Today · Lean Mass Phase</div>
+            <h1 class="hero-title">Built for Your <span>FTO + ACTN3</span> Profile.</h1>
+            <p class="hero-sub">2,310 kcal · 168 g protein. MAIA tuned today's plan after seeing your training load and last night's recovery.</p>
+            <div class="hero-cta-row">
+              <button class="btn btn-primary inline"><svg class="ic"><use href="#i-leaf"/></svg>Generate Today's Plan</button>
+            </div>
+          </div>
+          <div class="ring-wrap">
+            <div class="ring">
+              <svg viewBox="0 0 200 200">
+                <circle cx="100" cy="100" r="84" fill="none" stroke="rgba(255,107,44,.10)" stroke-width="10"/>
+                <circle cx="100" cy="100" r="84" fill="none" stroke="url(#dg)" stroke-width="10" stroke-linecap="round" stroke-dasharray="528" stroke-dashoffset="190"/>
+                <defs><linearGradient id="dg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FF8A4C"/><stop offset="100%" stop-color="#E8501A"/></linearGradient></defs>
+              </svg>
+              <div class="ring-center">
+                <div class="ring-val">64</div>
+                <div class="ring-lbl">% of day</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Macros -->
+      <section class="card">
+        <div class="card-head"><div class="ch-left"><svg class="ic ic-18"><use href="#i-target"/></svg><h3>Today's Macros</h3></div><span class="tag amber">Adaptive</span></div>
+        <div class="macro-grid">
+          <div class="macro">
+            <div class="macro-val" style="color:var(--rose)">1,490</div>
+            <div class="macro-lbl">/ 2,310 kcal</div>
+            <div class="macro-bar"><div class="macro-fill" style="width:64%;background:var(--rose)"></div></div>
+          </div>
+          <div class="macro">
+            <div class="macro-val" style="color:var(--trigr)">112<small style="font-size:12px">g</small></div>
+            <div class="macro-lbl">/ 168 g Protein</div>
+            <div class="macro-bar"><div class="macro-fill" style="width:67%;background:var(--trigr)"></div></div>
+          </div>
+          <div class="macro">
+            <div class="macro-val" style="color:var(--amber)">144<small style="font-size:12px">g</small></div>
+            <div class="macro-lbl">/ 230 g Carbs</div>
+            <div class="macro-bar"><div class="macro-fill" style="width:63%;background:var(--amber)"></div></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="layout-2col">
+
+        <!-- Today's meals -->
+        <section class="card">
+          <div class="card-head"><div class="ch-left"><svg class="ic ic-18"><use href="#i-leaf"/></svg><h3>Today's Meals</h3></div><span class="tag">5 meals</span></div>
+          <div class="rows">
+            <div class="rrow"><div class="rrow-ic tone-amber"><svg class="ic"><use href="#i-mortar"/></svg></div><div class="rrow-info"><strong>Pre-train · Oats + Whey</strong><span>6:30 AM · 45 g slow carbs · 30 g whey</span></div><span class="rrow-pill tone-amber">420 kcal</span></div>
+            <div class="rrow"><div class="rrow-ic tone-trigr"><svg class="ic"><use href="#i-leaf"/></svg></div><div class="rrow-info"><strong>Post-train · Chicken & Quinoa</strong><span>10:00 AM · 220 g chicken · 80 g quinoa</span></div><span class="rrow-pill">680 kcal</span></div>
+            <div class="rrow"><div class="rrow-ic tone-teal"><svg class="ic"><use href="#i-apple"/></svg></div><div class="rrow-info"><strong>Snack · Greek Yoghurt + Walnuts</strong><span>1:00 PM · Omega-3 boost</span></div><span class="rrow-pill tone-teal">280 kcal</span></div>
+            <div class="rrow"><div class="rrow-ic tone-purple"><svg class="ic"><use href="#i-leaf"/></svg></div><div class="rrow-info"><strong>Dinner · Salmon + Sweet Potato</strong><span>7:30 PM · 180 g salmon · greens</span></div><span class="rrow-pill tone-purple">560 kcal</span></div>
+            <div class="rrow"><div class="rrow-ic tone-gold"><svg class="ic"><use href="#i-coffee"/></svg></div><div class="rrow-info"><strong>Wind-down · Casein + Berries</strong><span>10:00 PM · Slow protein</span></div><span class="rrow-pill tone-gold">370 kcal</span></div>
+          </div>
+          <div class="card-foot"><button class="btn btn-gold"><svg class="ic"><use href="#i-sparkle"/></svg>Regenerate Plan</button></div>
+        </section>
+
+        <div class="stack">
+          <!-- Hydration + supplements -->
+          <div class="tile-grid">
+            <div class="tile tone-teal">
+              <div class="tile-head"><div class="tile-ic"><svg class="ic"><use href="#i-droplet"/></svg></div><span class="tile-badge">On track</span></div>
+              <div><div class="tile-val">2.4<small> / 3.5 L</small></div><div class="tile-hint">1.1 L remaining</div></div>
+              <div class="tile-foot"><span style="font-family:var(--f-display);font-size:9px;color:var(--muted);letter-spacing:1px">+ Log Water</span><span class="arr"><svg class="ic ic-14"><use href="#i-plus"/></svg></span></div>
+            </div>
+            <div class="tile tone-trigr">
+              <div class="tile-head"><div class="tile-ic"><svg class="ic"><use href="#i-flask"/></svg></div><span class="tile-badge">DNA Stack</span></div>
+              <div><div class="tile-val">3<small> / 5</small></div><div class="tile-hint">Supplements taken today</div></div>
+              <div class="tile-foot"><span style="font-family:var(--f-display);font-size:9px;color:var(--muted);letter-spacing:1px">View Stack</span><span class="arr"><svg class="ic ic-14"><use href="#i-arrow-right"/></svg></span></div>
+            </div>
+          </div>
+
+          <!-- Switch goal -->
+          <div class="sec-head"><div class="sec-eyebrow">Switch <b>Goal</b></div></div>
+          <div class="tile-grid">
+            <div class="tile tone-trigr"><div class="tile-head"><div class="tile-ic"><svg class="ic"><use href="#i-bolt"/></svg></div><span class="tile-badge">Current</span></div><div><div class="tile-val" style="font-size:18px">Lean Mass</div><div class="tile-hint">+ 300 kcal surplus</div></div></div>
+            <div class="tile tone-rose"><div class="tile-head"><div class="tile-ic"><svg class="ic"><use href="#i-fire"/></svg></div></div><div><div class="tile-val" style="font-size:18px">Fat Loss</div><div class="tile-hint">− 400 kcal deficit</div></div></div>
+            <div class="tile tone-teal"><div class="tile-head"><div class="tile-ic"><svg class="ic"><use href="#i-target"/></svg></div></div><div><div class="tile-val" style="font-size:18px">Maintain</div><div class="tile-hint">TDEE matched</div></div></div>
+            <div class="tile tone-purple"><div class="tile-head"><div class="tile-ic"><svg class="ic"><use href="#i-shield"/></svg></div></div><div><div class="tile-val" style="font-size:18px">Healing</div><div class="tile-hint">Anti-inflammatory</div></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recipe library -->
+      <div class="sec-head"><div class="sec-eyebrow">Recipe <b>Library</b></div><a href="#" class="sec-link">All<svg class="ic"><use href="#i-arrow-right"/></svg></a></div>
+      <div class="store-grid">
+        <div class="store-card">
+          <div class="store-img"><svg class="ic ic-40"><use href="#i-mortar"/></svg></div>
+          <div class="store-info"><div class="nm">Power Breakfast Bowl</div><div class="ty">32 g protein · 8 ingredients</div><div class="pr" style="font-size:11px;color:var(--muted);font-weight:600">12 min · Easy</div></div>
+        </div>
+        <div class="store-card">
+          <div class="store-img"><svg class="ic ic-40"><use href="#i-leaf"/></svg></div>
+          <div class="store-info"><div class="nm">Mediterranean Tuna Salad</div><div class="ty">Omega-3 rich</div><div class="pr" style="font-size:11px;color:var(--muted);font-weight:600">10 min · Easy</div></div>
+        </div>
+        <div class="store-card">
+          <div class="store-img"><svg class="ic ic-40"><use href="#i-flask"/></svg></div>
+          <div class="store-info"><div class="nm">Indian Dal + Brown Rice</div><div class="ty">Plant protein 28 g</div><div class="pr" style="font-size:11px;color:var(--muted);font-weight:600">35 min · Medium</div></div>
+        </div>
+        <div class="store-card">
+          <div class="store-img"><svg class="ic ic-40"><use href="#i-leaf"/></svg></div>
+          <div class="store-info"><div class="nm">Sesame Salmon · 4 Ways</div><div class="ty">Anti-inflammatory</div><div class="pr" style="font-size:11px;color:var(--muted);font-weight:600">22 min · Medium</div></div>
+        </div>
+      </div>
+
+    </div>
+
+  </div></main>
+
+  <nav class="bottom-nav">
+    <a href="index.html"   class="bn-item"><svg class="ic"><use href="#i-home"/></svg>Home</a>
+    <a href="workout.html" class="bn-item"><svg class="ic"><use href="#i-dumbbell"/></svg>Move</a>
+    <a href="scan.html"    class="bn-item"><svg class="ic"><use href="#i-scan"/></svg>Scan</a>
+    <a href="maia.html"    class="bn-item"><svg class="ic"><use href="#i-brain"/></svg>MAIA</a>
+    <a href="profile.html" class="bn-item"><svg class="ic"><use href="#i-user"/></svg>Profile</a>
+  </nav>
+
+</div>
+</body>
+</html>

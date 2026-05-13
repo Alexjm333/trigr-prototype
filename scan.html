@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>TRIGR — Face Scan</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+<script src="icons.js" defer></script>
+</head>
+<body>
+<div class="app">
+
+  <aside class="sidebar">
+    <div class="sb-brand">
+      <div class="sb-mark"><svg class="ic ic-22"><use href="#i-logo"/></svg></div>
+      <div><div class="sb-name">TRIGR</div><div class="sb-sub">Performance OS</div></div>
+    </div>
+    <div class="sb-section">Workspace</div>
+    <a href="index.html"     class="sb-link"><svg class="ic"><use href="#i-home"/></svg>Home</a>
+    <a href="workout.html"   class="sb-link"><svg class="ic"><use href="#i-dumbbell"/></svg>Workouts</a>
+    <a href="scan.html"      class="sb-link active"><svg class="ic"><use href="#i-scan"/></svg>Face Scan</a>
+    <a href="maia.html"      class="sb-link"><svg class="ic"><use href="#i-brain"/></svg>MAIA</a>
+    <a href="coach.html"     class="sb-link"><svg class="ic"><use href="#i-mic"/></svg>Real Coach</a>
+    <div class="sb-section">Performance</div>
+    <a href="eplimo.html"    class="sb-link"><svg class="ic"><use href="#i-dna"/></svg>EPLIMO</a>
+    <a href="health.html"    class="sb-link"><svg class="ic"><use href="#i-pulse"/></svg>Health</a>
+    <a href="diet.html"      class="sb-link"><svg class="ic"><use href="#i-leaf"/></svg>Nutrition</a>
+    <div class="sb-section">Community</div>
+    <a href="community.html" class="sb-link"><svg class="ic"><use href="#i-message"/></svg>Community</a>
+    <a href="store.html"     class="sb-link"><svg class="ic"><use href="#i-cart"/></svg>Store</a>
+    <a href="profile.html"   class="sb-link"><svg class="ic"><use href="#i-user"/></svg>Profile</a>
+    <div class="sb-plan">
+      <div class="sb-plan-row">
+        <div class="sb-plan-ic"><svg class="ic ic-18"><use href="#i-crown"/></svg></div>
+        <div><div class="sb-plan-name">PRO MEMBER</div><div class="sb-plan-meta">₹999 / mo</div></div>
+      </div>
+      <a href="upgrade.html" class="sb-plan-btn">Manage Plan</a>
+    </div>
+  </aside>
+
+  <main class="main"><div class="main-wrap">
+
+    <div class="page-header">
+      <a href="index.html" class="back-btn"><svg class="ic ic-18"><use href="#i-chevron-left"/></svg></a>
+      <div class="page-title"><div class="pt-eyebrow">Powered by rPPG · Binah.ai</div><h1>Face Scan</h1></div>
+      <button class="icon-btn"><svg class="ic ic-18"><use href="#i-info"/></svg></button>
+    </div>
+
+    <div class="stack">
+
+      <div class="layout-2col">
+        <!-- Scan stage -->
+        <section class="scan-stage">
+          <div class="hero-eyebrow"><span class="dot"></span>Camera Ready</div>
+          <div class="face-frame">
+            <svg class="ic ic-48 face-glyph"><use href="#i-user"/></svg>
+            <div class="scan-line"></div>
+          </div>
+          <h3 style="font-family:var(--f-display);font-size:16px;font-weight:900;letter-spacing:1px">Hold Still · 30 Seconds</h3>
+          <p style="font-size:12px;color:var(--muted);margin-top:8px;line-height:1.55">AI analyses your face to measure stress, fatigue & recovery. Costs one scan token per session.</p>
+          <div style="margin-top:18px"><button class="btn btn-primary inline"><svg class="ic"><use href="#i-play"/></svg>Begin Scan · -1 Token</button></div>
+        </section>
+
+        <!-- Tokens + plan info -->
+        <div class="stack">
+          <div class="tokens-row">
+            <div class="tr-left">
+              <div class="tr-ic"><svg class="ic"><use href="#i-coin"/></svg></div>
+              <div>
+                <div class="tr-lbl">Scan Tokens</div>
+                <div class="tr-val">17 <small>/ 20 on Pro</small></div>
+              </div>
+            </div>
+            <a href="upgrade.html" class="btn btn-ghost btn-sm inline"><svg class="ic"><use href="#i-plus"/></svg>Top Up</a>
+          </div>
+
+          <section class="card">
+            <div class="card-head"><div class="ch-left"><svg class="ic ic-18"><use href="#i-info"/></svg><h3>What We Measure</h3></div></div>
+            <div class="rows">
+              <div class="rrow"><div class="rrow-ic tone-rose"><svg class="ic"><use href="#i-heart"/></svg></div><div class="rrow-info"><strong>Heart Rate & HRV</strong><span>Micro color changes in skin</span></div></div>
+              <div class="rrow"><div class="rrow-ic tone-amber"><svg class="ic"><use href="#i-pulse"/></svg></div><div class="rrow-info"><strong>Stress Index</strong><span>HRV + breathing pattern</span></div></div>
+              <div class="rrow"><div class="rrow-ic tone-purple"><svg class="ic"><use href="#i-moon"/></svg></div><div class="rrow-info"><strong>Recovery Level</strong><span>Autonomic balance</span></div></div>
+              <div class="rrow"><div class="rrow-ic tone-trigr"><svg class="ic"><use href="#i-brain"/></svg></div><div class="rrow-info"><strong>Mental Clarity</strong><span>Cognitive readiness</span></div></div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- Last scan results -->
+      <div class="sec-head"><div class="sec-eyebrow">Last Scan · <b>2 Hours Ago</b></div><a href="#" class="sec-link">History<svg class="ic"><use href="#i-arrow-right"/></svg></a></div>
+      <div class="metrics-grid">
+        <div class="metric"><div class="metric-lbl">Stress</div><div class="metric-val" style="color:var(--amber)">58<small>/100</small></div><div class="metric-sub">↑ 12 vs yesterday</div></div>
+        <div class="metric"><div class="metric-lbl">Recovery</div><div class="metric-val" style="color:var(--teal)">78<small>/100</small></div><div class="metric-sub">Train-ready</div></div>
+        <div class="metric"><div class="metric-lbl">Fatigue</div><div class="metric-val" style="color:var(--rose)">42<small>/100</small></div><div class="metric-sub">Mild · push light</div></div>
+        <div class="metric"><div class="metric-lbl">Clarity</div><div class="metric-val" style="color:var(--trigr)">81<small>/100</small></div><div class="metric-sub">Focus zone</div></div>
+      </div>
+
+      <!-- MAIA suggestion -->
+      <div class="banner">
+        <div class="banner-ic"><svg class="ic"><use href="#i-brain"/></svg></div>
+        <div class="banner-body">
+          <strong>MAIA · Stress up, recovery still strong.</strong>
+          <p>Try a <b>10-minute breathwork + cold exposure</b> before today's session.</p>
+          <div class="banner-cta"><a href="maia.html" class="btn btn-primary inline"><svg class="ic"><use href="#i-brain"/></svg>Open MAIA</a></div>
+        </div>
+      </div>
+
+      <!-- History -->
+      <section class="card">
+        <div class="card-head"><div class="ch-left"><svg class="ic ic-18"><use href="#i-clock"/></svg><h3>Scan History · Last 7</h3></div><span class="tag muted">Trend</span></div>
+        <div class="rows">
+          <div class="rrow"><div class="rrow-ic tone-trigr"><svg class="ic"><use href="#i-scan"/></svg></div><div class="rrow-info"><strong>Today · 7:42 AM</strong><span>Stress 58 · Recovery 78 · Clarity 81</span></div><span class="rrow-pill">View</span></div>
+          <div class="rrow"><div class="rrow-ic tone-purple"><svg class="ic"><use href="#i-moon"/></svg></div><div class="rrow-info"><strong>Yesterday · 10:14 PM</strong><span>Stress 46 · Recovery 71 · Clarity 75</span></div><span class="rrow-pill tone-purple">View</span></div>
+          <div class="rrow"><div class="rrow-ic tone-trigr"><svg class="ic"><use href="#i-scan"/></svg></div><div class="rrow-info"><strong>May 11 · 8:02 AM</strong><span>Stress 52 · Recovery 80 · Clarity 79</span></div><span class="rrow-pill">View</span></div>
+          <div class="rrow"><div class="rrow-ic tone-trigr"><svg class="ic"><use href="#i-scan"/></svg></div><div class="rrow-info"><strong>May 10 · 7:30 AM</strong><span>Stress 49 · Recovery 76 · Clarity 78</span></div><span class="rrow-pill">View</span></div>
+        </div>
+      </section>
+
+    </div>
+
+  </div></main>
+
+  <nav class="bottom-nav">
+    <a href="index.html"   class="bn-item"><svg class="ic"><use href="#i-home"/></svg>Home</a>
+    <a href="workout.html" class="bn-item"><svg class="ic"><use href="#i-dumbbell"/></svg>Move</a>
+    <a href="scan.html"    class="bn-item on"><svg class="ic"><use href="#i-scan"/></svg>Scan</a>
+    <a href="maia.html"    class="bn-item"><svg class="ic"><use href="#i-brain"/></svg>MAIA</a>
+    <a href="profile.html" class="bn-item"><svg class="ic"><use href="#i-user"/></svg>Profile</a>
+  </nav>
+
+</div>
+</body>
+</html>

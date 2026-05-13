@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>TRIGR — Home</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+<script src="icons.js" defer></script>
+</head>
+<body>
+
+<div class="app">
+
+  <!-- SIDEBAR (desktop) -->
+  <aside class="sidebar">
+    <div class="sb-brand">
+      <div class="sb-mark"><svg class="ic ic-22"><use href="#i-logo"/></svg></div>
+      <div>
+        <div class="sb-name">TRIGR</div>
+        <div class="sb-sub">Performance OS</div>
+      </div>
+    </div>
+
+    <div class="sb-section">Workspace</div>
+    <a href="index.html"     class="sb-link active"><svg class="ic"><use href="#i-home"/></svg>Home</a>
+    <a href="workout.html"   class="sb-link"><svg class="ic"><use href="#i-dumbbell"/></svg>Workouts</a>
+    <a href="scan.html"      class="sb-link"><svg class="ic"><use href="#i-scan"/></svg>Face Scan</a>
+    <a href="maia.html"      class="sb-link"><svg class="ic"><use href="#i-brain"/></svg>MAIA</a>
+    <a href="coach.html"     class="sb-link"><svg class="ic"><use href="#i-mic"/></svg>Real Coach</a>
+
+    <div class="sb-section">Performance</div>
+    <a href="eplimo.html"    class="sb-link"><svg class="ic"><use href="#i-dna"/></svg>EPLIMO</a>
+    <a href="health.html"    class="sb-link"><svg class="ic"><use href="#i-pulse"/></svg>Health</a>
+    <a href="diet.html"      class="sb-link"><svg class="ic"><use href="#i-leaf"/></svg>Nutrition</a>
+
+    <div class="sb-section">Community</div>
+    <a href="community.html" class="sb-link"><svg class="ic"><use href="#i-message"/></svg>Community</a>
+    <a href="store.html"     class="sb-link"><svg class="ic"><use href="#i-cart"/></svg>Store</a>
+    <a href="profile.html"   class="sb-link"><svg class="ic"><use href="#i-user"/></svg>Profile</a>
+
+    <div class="sb-plan">
+      <div class="sb-plan-row">
+        <div class="sb-plan-ic"><svg class="ic ic-18"><use href="#i-crown"/></svg></div>
+        <div>
+          <div class="sb-plan-name">PRO MEMBER</div>
+          <div class="sb-plan-meta">₹999 / mo · Renews Jun 12</div>
+        </div>
+      </div>
+      <a href="upgrade.html" class="sb-plan-btn">Manage Plan</a>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+  <div class="main-wrap">
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+      <div class="tb-left">
+        <div class="tb-menu"><svg class="ic ic-18"><use href="#i-menu"/></svg></div>
+        <div class="tb-mark">
+          <div class="sb-mark"><svg class="ic ic-18"><use href="#i-logo"/></svg></div>
+          <div class="tb-name">TRIGR</div>
+        </div>
+        <div class="tb-greet">
+          <div class="tg-hey">Good morning</div>
+          <div class="tg-name">Aditya Narayan</div>
+        </div>
+      </div>
+      <div class="tb-right">
+        <span class="pill"><span class="dot"></span>1,420 PTS</span>
+        <button class="icon-btn"><svg class="ic ic-18"><use href="#i-bell"/></svg><span class="nd"></span></button>
+      </div>
+    </div>
+
+    <div class="stack">
+
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-grid">
+          <div>
+            <div class="hero-eyebrow"><span class="dot"></span>Trigr · Performance Active</div>
+            <h1 class="hero-title">Revolutionize Your <span>Workouts.</span><br/>Redefine Potential.</h1>
+            <p class="hero-sub">Your DNA-aware coach MAIA has tuned today's plan for power-strength. Recovery is strong, CNS is fresh, and your stress score wants a 10-minute breathwork warm-up.</p>
+            <div class="hero-cta-row">
+              <a href="workout.html" class="btn btn-primary inline"><svg class="ic"><use href="#i-bolt"/></svg>Start Today's Session</a>
+              <a href="maia.html"    class="btn btn-ghost inline"><svg class="ic"><use href="#i-brain"/></svg>Ask MAIA</a>
+            </div>
+          </div>
+
+          <div class="ring-wrap">
+            <div class="ring">
+              <svg viewBox="0 0 200 200">
+                <circle cx="100" cy="100" r="84" fill="none" stroke="rgba(255,107,44,.10)" stroke-width="10"/>
+                <circle id="mRing" cx="100" cy="100" r="84" fill="none"
+                  stroke="url(#g-ring)" stroke-width="10" stroke-linecap="round"
+                  stroke-dasharray="528" stroke-dashoffset="528"
+                  style="transition:stroke-dashoffset 1.4s cubic-bezier(.4,0,.2,1)"/>
+                <defs>
+                  <linearGradient id="g-ring" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#FF8A4C"/>
+                    <stop offset="100%" stop-color="#E8501A"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+              <div class="ring-center">
+                <div class="ring-val">82</div>
+                <div class="ring-lbl">Performance</div>
+                <div class="ring-sub"><svg class="ic"><use href="#i-trend-up"/></svg>Peak</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MAIA INSIGHT BANNER -->
+      <div class="banner" id="banner">
+        <div class="banner-ic"><svg class="ic"><use href="#i-dna"/></svg></div>
+        <div class="banner-body">
+          <strong>MAIA · Recovery 78%, perfect for hypertrophy today.</strong>
+          <p>Your <b>ACTN3 RR</b> genotype favours power-strength work. I've queued a 58-minute session with auto rep-count and live form-check.</p>
+          <div class="banner-cta">
+            <a href="workout.html" class="btn btn-primary inline"><svg class="ic"><use href="#i-bolt"/></svg>Start Session</a>
+            <button class="banner-x" onclick="document.getElementById('banner').style.display='none'"><svg class="ic"><use href="#i-close"/></svg></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- QUICK ACTIONS -->
+      <div class="sec-head"><div class="sec-eyebrow">Quick <b>Actions</b></div></div>
+      <div class="actions">
+        <a href="scan.html" class="action tone-trigr">
+          <div class="action-head"><div class="action-ic"><svg class="ic"><use href="#i-scan"/></svg></div></div>
+          <div><div class="action-title">Face Scan</div><div class="action-sub">Stress · Fatigue · Recovery</div></div>
+          <div class="action-meta"><span class="action-pill">17 Tokens</span><span class="action-arr"><svg class="ic ic-14"><use href="#i-arrow-right"/></svg></span></div>
+        </a>
+        <a href="workout.html" class="action tone-teal">
+          <div class="action-head"><div class="action-ic"><svg class="ic"><use href="#i-dumbbell"/></svg></div></div>
+          <div><div class="action-title">$1 Fitness Club</div><div class="action-sub">AI Trainer · Real-time form</div></div>
+          <div class="action-meta"><span class="action-pill">Unlimited</span><span class="action-arr"><svg class="ic ic-14"><use href="#i-arrow-right"/></svg></span></div>
+        </a>
+        <a href="maia.html" class="action tone-purple">
+          <div class="action-head"><div class="action-ic"><svg class="ic"><use href="#i-brain"/></svg></div></div>
+          <div><div class="action-title">Ask MAIA</div><div class="action-sub">Your AI performance coach</div></div>
+          <div class="action-meta"><span class="action-pill">No Limit</span><span class="action-arr"><svg class="ic ic-14"><use href="#i-arrow-right"/></svg></span></div>
+        </a>
+        <a href="coach.html" class="action tone-gold">
+          <div class="action-head"><div class="action-ic"><svg class="ic"><use href="#i-mic"/></svg></div></div>
+          <div><div class="action-title">Hire a Coach</div><div class="action-sub">Certified pros · 1:1</div></div>
+          <div class="action-meta"><span class="action-pill">2 Sessions</span><span class="action-arr"><svg class="ic ic-14"><use href="#i-arrow-right"/></svg></span></div>
+        </a>
+      </div>
+
+      <!-- BIO AGE -->
+      <div class="sec-head"><div class="sec-eyebrow">Bio Age · <b>DNA + Vitals</b></div><a href="health.html" class="sec-link">Full report<svg class="ic"><use href="#i-arrow-right"/></svg></a></div>
+      <section class="bioage">
+        <div class="bioage-row">
+          <div class="bioage-num">26</div>
+          <div class="bioage-info">
+            <div class="bioage-eyebrow">Biological Age</div>
+            <h3>You're 6 years younger than your chronological age.</h3>
+            <p>Calibrated from your Vieroots EPLIMO panel and last 30 days of vitals from Apple Watch and WHOOP.</p>
+            <span class="bioage-delta"><svg class="ic ic-14"><use href="#i-trend-down"/></svg>1.2 years vs last month</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- VITALS TILES -->
+      <div class="sec-head"><div class="sec-eyebrow">Today's <b>Vitals</b></div><a href="health.html" class="sec-link">View all<svg class="ic"><use href="#i-arrow-right"/></svg></a></div>
+      <div class="tile-grid">
+        <div class="tile tone-rose">
+          <div class="tile-head"><div class="tile-ic"><svg class="ic"><use href="#i-heart"/></svg></div><span class="tile-badge">Normal</span></div>
+          <div><div class="tile-val">62<small> bpm</small></div><div class="tile-hint">Resting · Apple Watch</div></div>
+        </div>
+        <div class="tile tone-amber">
+          <div class="tile-head"><div class="tile-ic"><svg class="ic"><use href="#i-pulse"/></svg></div><span class="tile-badge">Elevated</span></div>
+          <div><div class="tile-val">58<small> /100</small></div><div class="tile-hint">Stress · Breathwork suggested</div></div>
+        </div>
+        <div class="tile tone-purple">
+          <div class="tile-head"><div class="tile-ic"><svg class="ic"><use href="#i-moon"/></svg></div><span class="tile-badge">Optimal</span></div>
+          <div><div class="tile-val">7.4<small> hrs</small></div><div class="tile-hint">4 deep · 1.8 REM</div></div>
+        </div>
+        <div class="tile tone-teal">
+          <div class="tile-head"><div class="tile-ic"><svg class="ic"><use href="#i-power"/></svg></div><span class="tile-badge">Ready</span></div>
+          <div><div class="tile-val">78<small> %</small></div><div class="tile-hint">HRV trending up · train</div></div>
+        </div>
+      </div>
+
+      <!-- 2-COL: Today's workout + Diet -->
+      <div class="layout-2col">
+        <section class="card">
+          <div class="card-head"><div class="ch-left"><svg class="ic ic-18"><use href="#i-dumbbell"/></svg><h3>Today's Workout</h3></div><span class="tag">$1 Fitness Club</span></div>
+          <div class="rows">
+            <div class="rrow"><div class="rrow-ic tone-trigr"><svg class="ic"><use href="#i-fire"/></svg></div><div class="rrow-info"><strong>Dynamic Warm-up</strong><span>Mobility · Activation</span></div><span class="rrow-pill">8 min</span></div>
+            <div class="rrow"><div class="rrow-ic tone-trigr"><svg class="ic"><use href="#i-dumbbell"/></svg></div><div class="rrow-info"><strong>Compound Strength</strong><span>Squat / Bench / Row · 5×5</span></div><span class="rrow-pill">28 min</span></div>
+            <div class="rrow"><div class="rrow-ic tone-trigr"><svg class="ic"><use href="#i-bolt"/></svg></div><div class="rrow-info"><strong>Explosive Power Circuit</strong><span>AI form check · 4 rounds</span></div><span class="rrow-pill">14 min</span></div>
+            <div class="rrow"><div class="rrow-ic tone-trigr"><svg class="ic"><use href="#i-stretch"/></svg></div><div class="rrow-info"><strong>Mobility Cool-down</strong><span>Recovery flow</span></div><span class="rrow-pill">8 min</span></div>
+          </div>
+          <div class="card-foot"><a href="workout.html" class="btn btn-primary"><svg class="ic"><use href="#i-play"/></svg>Start Today's Workout</a></div>
+        </section>
+
+        <section class="card">
+          <div class="card-head"><div class="ch-left"><svg class="ic ic-18"><use href="#i-leaf"/></svg><h3>Nutrition</h3></div><span class="tag amber">DNA-Tuned</span></div>
+          <div class="macro-grid">
+            <div class="macro">
+              <div class="macro-val" style="color:var(--rose)">2,310</div>
+              <div class="macro-lbl">Kcal</div>
+              <div class="macro-bar"><div class="macro-fill" style="width:64%;background:var(--rose)"></div></div>
+            </div>
+            <div class="macro">
+              <div class="macro-val" style="color:var(--trigr)">168<small style="font-size:12px">g</small></div>
+              <div class="macro-lbl">Protein</div>
+              <div class="macro-bar"><div class="macro-fill" style="width:78%;background:var(--trigr)"></div></div>
+            </div>
+            <div class="macro">
+              <div class="macro-val" style="color:var(--amber)">230<small style="font-size:12px">g</small></div>
+              <div class="macro-lbl">Carbs</div>
+              <div class="macro-bar"><div class="macro-fill" style="width:62%;background:var(--amber)"></div></div>
+            </div>
+          </div>
+          <div class="rows">
+            <div class="rrow"><div class="rrow-ic tone-amber"><svg class="ic"><use href="#i-mortar"/></svg></div><div class="rrow-info"><strong>Pre-train · Oats + Whey</strong><span>6:30 AM · Slow carbs</span></div><span class="rrow-pill tone-amber">420 kcal</span></div>
+            <div class="rrow"><div class="rrow-ic tone-trigr"><svg class="ic"><use href="#i-leaf"/></svg></div><div class="rrow-info"><strong>Post-train · Chicken Bowl</strong><span>10:00 AM · High protein</span></div><span class="rrow-pill">680 kcal</span></div>
+          </div>
+          <div class="card-foot"><a href="diet.html" class="btn btn-gold"><svg class="ic"><use href="#i-leaf"/></svg>Full Nutrition Plan</a></div>
+        </section>
+      </div>
+
+      <!-- 2-COL: Upgrade + Upcoming -->
+      <div class="layout-2col">
+        <section class="card luxe">
+          <div class="card-head"><div class="ch-left"><svg class="ic ic-18" style="color:var(--gold3)"><use href="#i-crown"/></svg><h3>Unlock Pro</h3></div><span class="tag gold">7 Days Free</span></div>
+          <div class="card-pad">
+            <div class="plan-price-row">
+              <span class="plan-sym">₹</span>
+              <span class="plan-amt">999</span>
+              <span class="plan-per">/ month · cancel anytime</span>
+            </div>
+            <p style="font-size:12px;color:var(--muted);line-height:1.6;margin:8px 0 16px">Unlimited MAIA, 20 face-scan tokens, EPLIMO counselling, 2 real-coach consultations, 3× Trigr rewards.</p>
+            <a href="upgrade.html" class="btn btn-primary"><svg class="ic"><use href="#i-crown"/></svg>Go Pro</a>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-head"><div class="ch-left"><svg class="ic ic-18"><use href="#i-calendar"/></svg><h3>Upcoming</h3></div><a href="#" class="sec-link">All<svg class="ic"><use href="#i-arrow-right"/></svg></a></div>
+          <div class="rows">
+            <div class="rrow"><div class="rrow-date"><div class="d">15</div><div class="m">MAY</div></div><div class="rrow-info"><strong>1:1 with Coach Priya</strong><span>6:30 PM · Zoom · 45 min</span></div><span class="rrow-pill">Coach</span></div>
+            <div class="rrow"><div class="rrow-date"><div class="d" style="color:var(--gold3)">17</div><div class="m">MAY</div></div><div class="rrow-info"><strong>EPLIMO Counselling</strong><span>11:00 AM · Dr Anjali · 30 min</span></div><span class="rrow-pill tone-gold">EPLIMO</span></div>
+            <div class="rrow"><div class="rrow-date"><div class="d" style="color:var(--purple)">20</div><div class="m">MAY</div></div><div class="rrow-info"><strong>Community Live · Recovery 101</strong><span>7:00 PM · Online · 60 min</span></div><span class="rrow-pill tone-purple">Community</span></div>
+          </div>
+        </section>
+      </div>
+
+      <!-- EPLIMO TEASER -->
+      <section class="eplimo-card">
+        <div class="eplimo-head">
+          <div class="eplimo-vbadge"><svg class="ic ic-14"><use href="#i-dna"/></svg>EPLIMO Report</div>
+          <h3>Unlock Your <span>DNA Blueprint</span></h3>
+          <p>EPLIMO uses your genetic, metabolic and lifestyle data to engineer training, nutrition, and recovery for your unique blueprint.</p>
+        </div>
+        <div class="pillars">
+          <div class="pillar"><div class="pillar-ic"><svg class="ic"><use href="#i-dna"/></svg></div><div class="pillar-name">DNA</div><div class="pillar-sub">Genetic markers</div></div>
+          <div class="pillar"><div class="pillar-ic"><svg class="ic"><use href="#i-flask"/></svg></div><div class="pillar-name">Metabolism</div><div class="pillar-sub">Macros & micros tuning</div></div>
+          <div class="pillar"><div class="pillar-ic"><svg class="ic"><use href="#i-bolt"/></svg></div><div class="pillar-name">Performance</div><div class="pillar-sub">Power · endurance · recovery</div></div>
+        </div>
+        <div class="card-foot"><a href="eplimo.html" class="btn btn-primary"><svg class="ic"><use href="#i-upload"/></svg>Upload EPLIMO Report</a></div>
+      </section>
+
+    </div>
+  </div>
+  </main>
+
+  <!-- BOTTOM NAV (mobile) -->
+  <nav class="bottom-nav">
+    <a href="index.html"   class="bn-item on"><svg class="ic"><use href="#i-home"/></svg>Home</a>
+    <a href="workout.html" class="bn-item"><svg class="ic"><use href="#i-dumbbell"/></svg>Move</a>
+    <a href="scan.html"    class="bn-item"><svg class="ic"><use href="#i-scan"/></svg>Scan</a>
+    <a href="maia.html"    class="bn-item"><svg class="ic"><use href="#i-brain"/></svg>MAIA</a>
+    <a href="profile.html" class="bn-item"><svg class="ic"><use href="#i-user"/></svg>Profile</a>
+  </nav>
+
+</div>
+
+<script>
+window.addEventListener('load', () => {
+  const r = document.getElementById('mRing');
+  if (r) {
+    const C = 2 * Math.PI * 84;
+    setTimeout(() => { r.setAttribute('stroke-dashoffset', C * (1 - 0.82)); }, 400);
+  }
+});
+</script>
+</body>
+</html>

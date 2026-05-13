@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>TRIGR — Health Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+<script src="icons.js" defer></script>
+</head>
+<body>
+<div class="app">
+
+  <aside class="sidebar">
+    <div class="sb-brand">
+      <div class="sb-mark"><svg class="ic ic-22"><use href="#i-logo"/></svg></div>
+      <div><div class="sb-name">TRIGR</div><div class="sb-sub">Performance OS</div></div>
+    </div>
+    <div class="sb-section">Workspace</div>
+    <a href="index.html"     class="sb-link"><svg class="ic"><use href="#i-home"/></svg>Home</a>
+    <a href="workout.html"   class="sb-link"><svg class="ic"><use href="#i-dumbbell"/></svg>Workouts</a>
+    <a href="scan.html"      class="sb-link"><svg class="ic"><use href="#i-scan"/></svg>Face Scan</a>
+    <a href="maia.html"      class="sb-link"><svg class="ic"><use href="#i-brain"/></svg>MAIA</a>
+    <a href="coach.html"     class="sb-link"><svg class="ic"><use href="#i-mic"/></svg>Real Coach</a>
+    <div class="sb-section">Performance</div>
+    <a href="eplimo.html"    class="sb-link"><svg class="ic"><use href="#i-dna"/></svg>EPLIMO</a>
+    <a href="health.html"    class="sb-link active"><svg class="ic"><use href="#i-pulse"/></svg>Health</a>
+    <a href="diet.html"      class="sb-link"><svg class="ic"><use href="#i-leaf"/></svg>Nutrition</a>
+    <div class="sb-section">Community</div>
+    <a href="community.html" class="sb-link"><svg class="ic"><use href="#i-message"/></svg>Community</a>
+    <a href="store.html"     class="sb-link"><svg class="ic"><use href="#i-cart"/></svg>Store</a>
+    <a href="profile.html"   class="sb-link"><svg class="ic"><use href="#i-user"/></svg>Profile</a>
+    <div class="sb-plan">
+      <div class="sb-plan-row">
+        <div class="sb-plan-ic"><svg class="ic ic-18"><use href="#i-crown"/></svg></div>
+        <div><div class="sb-plan-name">PRO MEMBER</div><div class="sb-plan-meta">₹999 / mo</div></div>
+      </div>
+      <a href="upgrade.html" class="sb-plan-btn">Manage Plan</a>
+    </div>
+  </aside>
+
+  <main class="main"><div class="main-wrap">
+
+    <div class="page-header">
+      <a href="index.html" class="back-btn"><svg class="ic ic-18"><use href="#i-chevron-left"/></svg></a>
+      <div class="page-title"><div class="pt-eyebrow">Vitals · Bio Age · HIA</div><h1>Health Tracker</h1></div>
+      <button class="icon-btn"><svg class="ic ic-18"><use href="#i-watch"/></svg></button>
+    </div>
+
+    <div class="stack">
+
+      <!-- BIO AGE (prominent — instruction 11) -->
+      <div class="sec-head"><div class="sec-eyebrow">Bio Age · <b>Key Differentiator</b></div></div>
+      <section class="bioage">
+        <div class="bioage-row">
+          <div class="bioage-num">26</div>
+          <div class="bioage-info">
+            <div class="bioage-eyebrow">Biological Age</div>
+            <h3>You're 6 years younger than your years.</h3>
+            <p>Chronological 32. Calibrated from Vieroots gene panel + last 30-day vitals from Apple Watch and WHOOP.</p>
+            <span class="bioage-delta"><svg class="ic ic-14"><use href="#i-trend-down"/></svg>1.2 yrs vs last month</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="layout-2col">
+        <!-- BIO AGE BREAKDOWN -->
+        <section class="card">
+          <div class="card-head"><div class="ch-left"><svg class="ic ic-18"><use href="#i-target"/></svg><h3>Bio Age Inputs</h3></div><span class="tag">5 Factors</span></div>
+          <div class="rows">
+            <div class="rrow"><div class="rrow-ic tone-rose"><svg class="ic"><use href="#i-heart"/></svg></div><div class="rrow-info"><strong>Cardiovascular Age</strong><span>VO₂ max · HRV · resting HR</span></div><span class="rrow-pill tone-rose">24</span></div>
+            <div class="rrow"><div class="rrow-ic tone-purple"><svg class="ic"><use href="#i-moon"/></svg></div><div class="rrow-info"><strong>Sleep Age</strong><span>Deep / REM consistency</span></div><span class="rrow-pill tone-purple">28</span></div>
+            <div class="rrow"><div class="rrow-ic tone-amber"><svg class="ic"><use href="#i-leaf"/></svg></div><div class="rrow-info"><strong>Metabolic Age</strong><span>Body comp · macros adherence</span></div><span class="rrow-pill tone-amber">29</span></div>
+            <div class="rrow"><div class="rrow-ic tone-purple"><svg class="ic"><use href="#i-brain"/></svg></div><div class="rrow-info"><strong>Cognitive Age</strong><span>Reaction time · clarity scans</span></div><span class="rrow-pill tone-purple">25</span></div>
+            <div class="rrow"><div class="rrow-ic tone-trigr"><svg class="ic"><use href="#i-dna"/></svg></div><div class="rrow-info"><strong>Genetic Age</strong><span>Vieroots epigenetic markers</span></div><span class="rrow-pill">24</span></div>
+          </div>
+        </section>
+
+        <!-- HIA -->
+        <section class="card luxe">
+          <div class="card-head"><div class="ch-left"><svg class="ic ic-18" style="color:var(--gold3)"><use href="#i-sparkle"/></svg><h3>Health Intelligence (HIA)</h3></div><span class="tag gold">75 / 100</span></div>
+          <div class="hia-grid">
+            <div class="hia-row"><div class="hia-top"><span>Cardio</span><b style="color:var(--trigr)">82</b></div><div class="macro-bar"><div class="macro-fill" style="width:82%;background:var(--trigr)"></div></div></div>
+            <div class="hia-row"><div class="hia-top"><span>Strength</span><b style="color:var(--trigr)">78</b></div><div class="macro-bar"><div class="macro-fill" style="width:78%;background:var(--trigr)"></div></div></div>
+            <div class="hia-row"><div class="hia-top"><span>Mobility</span><b style="color:var(--amber)">64</b></div><div class="macro-bar"><div class="macro-fill" style="width:64%;background:var(--amber)"></div></div></div>
+            <div class="hia-row"><div class="hia-top"><span>Sleep</span><b style="color:var(--teal)">88</b></div><div class="macro-bar"><div class="macro-fill" style="width:88%;background:var(--teal)"></div></div></div>
+            <div class="hia-row"><div class="hia-top"><span>Stress</span><b style="color:var(--amber)">62</b></div><div class="macro-bar"><div class="macro-fill" style="width:62%;background:var(--amber)"></div></div></div>
+            <div class="hia-row"><div class="hia-top"><span>Cognition</span><b style="color:var(--purple)">81</b></div><div class="macro-bar"><div class="macro-fill" style="width:81%;background:var(--purple)"></div></div></div>
+            <div class="hia-row"><div class="hia-top"><span>Nutrition</span><b style="color:var(--trigr)">79</b></div><div class="macro-bar"><div class="macro-fill" style="width:79%;background:var(--trigr)"></div></div></div>
+            <div class="hia-row"><div class="hia-top"><span>Recovery</span><b style="color:var(--trigr)">78</b></div><div class="macro-bar"><div class="macro-fill" style="width:78%;background:var(--trigr)"></div></div></div>
+          </div>
+        </section>
+      </div>
+
+      <!-- VITALS GRID -->
+      <div class="sec-head"><div class="sec-eyebrow">Live <b>Vitals</b></div><span class="sec-link"><svg class="ic"><use href="#i-watch"/></svg>Apple · WHOOP</span></div>
+      <div class="tile-grid">
+        <div class="tile tone-rose">
+          <div class="tile-head"><div class="tile-ic"><svg class="ic"><use href="#i-heart"/></svg></div><span class="tile-badge">Normal</span></div>
+          <div><div class="tile-val">62<small> bpm</small></div><div class="tile-hint">Resting · 24h avg 64</div></div>
+        </div>
+        <div class="tile tone-amber">
+          <div class="tile-head"><div class="tile-ic"><svg class="ic"><use href="#i-pulse"/></svg></div><span class="tile-badge">Elevated</span></div>
+          <div><div class="tile-val">58<small> /100</small></div><div class="tile-hint">Stress · ↑12 from yesterday</div></div>
+        </div>
+        <div class="tile tone-purple">
+          <div class="tile-head"><div class="tile-ic"><svg class="ic"><use href="#i-moon"/></svg></div><span class="tile-badge">Optimal</span></div>
+          <div><div class="tile-val">7.4<small> hrs</small></div><div class="tile-hint">4 deep · 1.8 REM</div></div>
+        </div>
+        <div class="tile tone-trigr">
+          <div class="tile-head"><div class="tile-ic"><svg class="ic"><use href="#i-footprint"/></svg></div><span class="tile-badge">68%</span></div>
+          <div><div class="tile-val">6,840<small> /10K</small></div><div class="tile-hint">Steps today</div></div>
+        </div>
+        <div class="tile tone-teal">
+          <div class="tile-head"><div class="tile-ic"><svg class="ic"><use href="#i-power"/></svg></div><span class="tile-badge">Ready</span></div>
+          <div><div class="tile-val">78<small> %</small></div><div class="tile-hint">HRV up · CNS fresh</div></div>
+        </div>
+        <div class="tile tone-trigr">
+          <div class="tile-head"><div class="tile-ic"><svg class="ic"><use href="#i-droplet"/></svg></div><span class="tile-badge">Vieroots</span></div>
+          <div><div class="tile-val">98<small> % SpO₂</small></div><div class="tile-hint">Apple Watch · 7m ago</div></div>
+        </div>
+        <div class="tile tone-gold">
+          <div class="tile-head"><div class="tile-ic"><svg class="ic"><use href="#i-flask"/></svg></div><span class="tile-badge">Tracking</span></div>
+          <div><div class="tile-val">68.2<small> kg</small></div><div class="tile-hint">↑ 0.4 vs last week</div></div>
+        </div>
+        <div class="tile tone-rose">
+          <div class="tile-head"><div class="tile-ic"><svg class="ic"><use href="#i-fire"/></svg></div><span class="tile-badge">Daily</span></div>
+          <div><div class="tile-val">2,140<small> kcal</small></div><div class="tile-hint">Active burn today</div></div>
+        </div>
+      </div>
+
+      <!-- DEVICES -->
+      <section class="card">
+        <div class="card-head"><div class="ch-left"><svg class="ic ic-18"><use href="#i-watch"/></svg><h3>Connected Devices</h3></div><span class="tag">3 active</span></div>
+        <div class="rows">
+          <div class="rrow"><div class="rrow-ic tone-trigr"><svg class="ic"><use href="#i-watch"/></svg></div><div class="rrow-info"><strong>Apple Watch · Series 9</strong><span>HR · HRV · SpO₂ · steps</span></div><span class="rrow-pill">Active</span></div>
+          <div class="rrow"><div class="rrow-ic tone-purple"><svg class="ic"><use href="#i-pulse"/></svg></div><div class="rrow-info"><strong>WHOOP 4.0</strong><span>Recovery · strain · sleep</span></div><span class="rrow-pill tone-purple">Active</span></div>
+          <div class="rrow"><div class="rrow-ic tone-teal"><svg class="ic"><use href="#i-target"/></svg></div><div class="rrow-info"><strong>Withings Body+</strong><span>Weight · body fat</span></div><span class="rrow-pill tone-teal">Active</span></div>
+          <div class="rrow"><div class="rrow-ic tone-amber"><svg class="ic"><use href="#i-plus"/></svg></div><div class="rrow-info"><strong>Add Garmin / Fitbit</strong><span>One-tap pair</span></div><span class="rrow-pill tone-amber">Pair</span></div>
+        </div>
+      </section>
+
+    </div>
+
+  </div></main>
+
+  <nav class="bottom-nav">
+    <a href="index.html"   class="bn-item"><svg class="ic"><use href="#i-home"/></svg>Home</a>
+    <a href="workout.html" class="bn-item"><svg class="ic"><use href="#i-dumbbell"/></svg>Move</a>
+    <a href="scan.html"    class="bn-item"><svg class="ic"><use href="#i-scan"/></svg>Scan</a>
+    <a href="maia.html"    class="bn-item"><svg class="ic"><use href="#i-brain"/></svg>MAIA</a>
+    <a href="profile.html" class="bn-item"><svg class="ic"><use href="#i-user"/></svg>Profile</a>
+  </nav>
+
+</div>
+</body>
+</html>
