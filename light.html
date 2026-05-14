@@ -6,6 +6,7 @@
 <title>TRIGR — Home · Light</title>
 <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="styles.css"/>
+<script src="icons.js" defer></script>
 <style>
 /* TRIGR · LIGHT THEME — warm off-white luxury */
 html { background: #FBFAF7; }
@@ -43,6 +44,16 @@ body.theme-light {
   --green-3: #007A1A;
   --green-dim: rgba(0,170,36,.10);
   --green-b:   rgba(0,170,36,.30);
+
+  /* Primary brand tone — was silver in dark theme; flip to deep emerald
+     so tone-trigr defaults (icons, plates, badges) are visible on white */
+  --trigr:    #007A1A;
+  --trigr2:   #00AA24;
+  --trigr3:   #4FD675;
+  --tr-dim:   rgba(0,170,36,.10);
+  --tr-dim2:  rgba(0,170,36,.05);
+  --tr-b:     rgba(0,170,36,.30);
+  --tr-b2:    rgba(0,170,36,.45);
 
   background:
     radial-gradient(ellipse 70% 50% at 18% -6%, rgba(0,170,36,.05), transparent 60%),
@@ -322,6 +333,10 @@ body.theme-light .pillar-ic {
   border-color: rgba(0,170,36,.25);
   color: var(--green-3);
 }
+
+/* Hardcoded-silver icon fallbacks (face-scan glyph, etc.) */
+body.theme-light .face-glyph { color: var(--green-3); }
+body.theme-light .face-frame { border-color: rgba(0,170,36,.4); }
 
 /* BOTTOM NAV (mobile) */
 body.theme-light .bottom-nav {
